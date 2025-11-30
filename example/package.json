@@ -1,0 +1,24 @@
+{
+  "name": "@s2doc/table-editor-example",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "vue": "^3.5.22",
+    "vuetify": "^3.10.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "sass": "^1.93.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.11",
+    "vite-plugin-vuetify": "^2.1.2",
+    "vue-tsc": "^3.1.1"
+  }
+}

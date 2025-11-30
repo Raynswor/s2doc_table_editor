@@ -1,0 +1,56 @@
+{
+  "name": "@s2doc/table-editor",
+  "version": "1.0.0",
+  "description": "Standalone Vue 3 S2Doc table editor component with advanced editing capabilities",
+  "type": "module",
+  "main": "./dist/table-editor.umd.js",
+  "module": "./dist/table-editor.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/table-editor.es.js",
+      "require": "./dist/table-editor.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --outDir dist",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "table",
+    "editor",
+    "s2doc",
+    "vuetify",
+    "component"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.5.0",
+    "vuetify": "^3.10.0"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "sass": "^1.93.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.11",
+    "vite-plugin-vuetify": "^2.1.2",
+    "vue": "^3.5.22",
+    "vue-tsc": "^3.1.1",
+    "vuetify": "^3.10.6"
+  }
+}
